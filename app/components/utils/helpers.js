@@ -6,7 +6,7 @@ var nytAPI= "3c1b31b8bc8e4acca17525357fc05ab1";
 var helper = {
   runQuery: function(topic, startYear, endYear) {
     console.log("SEARCHING FOR " + topic);
-    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPI + "&q="+ topic + "&begin_date=" + startYear + "0101" + "&end_date=" + endYear + "3000";
+    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPI + "&q="+ topic + "&begin_date=" + startYear + "0101" + "&end_date=" + endYear + "1231";
     return axios.get(queryURL).then(function(response) {
       var results = [];
       // If get a result, return that result's formatted address property
