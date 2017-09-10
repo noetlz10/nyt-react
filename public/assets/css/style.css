@@ -1,0 +1,17 @@
+body {
+    background: url('../img/NYT_BG.png');
+    font-family: 'Noto Serif', Helvetica, serif;
+}
+
+.panelTitle {
+    background-color: #3949ab;
+    color: white;
+}
+
+.panel {
+    height: 500px;
+}
+
+.btn {
+    background-color: #3949ab;
+}
